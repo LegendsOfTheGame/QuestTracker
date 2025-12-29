@@ -1,11 +1,13 @@
 {
-    "Author": "isaiahcat", 
-    "Name": "QuestTracker",
-    "Punchline": "For the quest completionist",
-    "Description": "Easily track quest completion",
+    "Author": "LegendsOfTheGame (IC Fork)",
+    "Name": "Past Quests Tracker [7.4 FIX]",
+    "Punchline": "Updated for Patch 7.4 - 2.0 to 7.3 Data",
+    "Description": "This is a custom fork of QuestTracker by LegendsOfTheGame. It has been forced to run on API 14 so it works during the current patch cycle. Tracks quests from A Realm Reborn up to 7.3.",
+    "Version": "1.7.3.0",
+    "DalamudApiLevel": 14,
     "Tags": [
         "quest",
-        "quests",
-        "tracker"
+        "tracker",
+        "custom"
     ]
 }
