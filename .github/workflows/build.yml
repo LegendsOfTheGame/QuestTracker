@@ -1,0 +1,23 @@
+name: Build Plugin (7.4 Fix)
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build Plugin
+        run: dotnet build --configuration Release
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: QuestTracker-7.4-Fix
+          path: bin/Release/QuestTracker/
