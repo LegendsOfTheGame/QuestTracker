@@ -27,12 +27,12 @@ Legends Tracker is a comprehensive architectural overhaul of the original QuestT
 | **v2.74.50.x** | **Shadowbringers** | All 5.x Norvrandt content. |
 | **v2.74.60.x** | **Endwalker** | All 6.x Finale content. |
 | **v2.74.70.x** | **Dawntrail** | All 7.x Tural content. |
-
-Note: Our version number will increase when the patches come out, so v2.75.x.x will be released once Patch 7.5 is released
 ---
 
 ### 📬 Contact & Support
-This project is maintained by **Legends of the Game**.
+* **Maintained by:** Legends of the Game
+* **Support:** Open a GitHub Issue for bugs or data corrections.
+* **Note:** Please do not contact @isaiahcat for 2.x rebuild support.
 
 > [!IMPORTANT]
 > **Please do not contact the original creator (@isaiahcat) for support regarding the Legends Tracker 2.x builds.** > For suggestions, data corrections, or bugs, please open an **Issue** on this GitHub repository.
